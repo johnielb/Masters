@@ -3,57 +3,82 @@ Johniel Bocacao
 April 2024
 
 ## 1. Introduction
-
-### 1.1 Motivation
-
-### 1.2 Goals
-
-### 1.3 Scope and Limitations
-
+Set the scene, why I am doing this. Triangulate based on unique insight I have at ACC.
+- Government agencies collect data on citizens that interact with it, use that data for algorithms to improve service delivery, target, predict etc. Talk about some algorithms that are out of scope to muddy the waters, e.g. CBAs.
+- Government agencies need to have safeguards in place to ensure they use data for algorithms appropriately, ethically, with social license.
+- Algorithm Charter developed to commit agencies to basic principles around transparency, accountability, and considerations during the algorithm lifecycle.
+>  “demonstrate a commitment to ensuring New Zealanders have confidence in how government agencies use algorithms” through transparency and accountability in how they use New Zealanders’ data to make decisions about them.
+- Agencies embed principles in their enterprise policies to truly take effect
+- Year 1 review commissioned by StatsNZ in 2021 focused on operationalisation rather than a thorough, first principles review
+### 1.1. Motivation
+Problem statements
+- Difficulties around actually being sufficiently transparent - different across agencies
+- Are offline algorithms being monitored on an ongoing basis?
+- Perennial question around how to best involve people/communities affected by the decisions automated
+- Governments need clearer guidance on being a good Treaty partner in general - how to apply to the Charter. MASov?
+- Always tricky to incorporate human oversight in the process, verify when these are soft controls
+- Difficulty understanding what’s in scope
+### 1.2. Research Objectives
+Map to each motivation.
+- Model register
+- Recommendations for monitoring based on what agencies are required to report
+- Recommendations for algorithm (co)design methodologies?
+- Addressing quantification of bias. Rec #5: Important but difficult.
+	- Definitions of fairness and unfairness?
+	- Tradeoffs between different sorts…
+- Recommendations on what’s in and out of scope?
 ## 2. Background
-
-### 2.1 Algorithms in the Public Sector
+### 2.1. Algorithms in the Public Sector
 Define what’s in scope of AC
-Examples of algorithms
-Examples of what’s not an algorithm
-### 2.2 Development of the Algorithm Charter
-### 2.3 Criticism of the Algorithm Charter
-MSD and IRD were holdouts
-Missing:
-- Treasury-RBNZ
-- GCSB-SIS-Defense
-- Kainga Ora?
-### 2.4. Related Policies and Frameworks
-#### 2.4.1. PHRAE
-#### 2.4.2. Nga Tikanga Paihere
-#### 2.4.3. Te Mana Raraunga
-### 2.5. Developments since the Algorithm Charter
-#### 2.5.1 Technological Developments
-Generative AI
-Interim Generative AI guidelines for NZ Government
-#### 2.5.2 International Regulatory Developments
-EU AI Act
-Biden administration EO
-### 2.6. Policy Evaluation
+Examples of algorithms, what’s not an algorithm
+Generative AI - pending question
+Interim Generative AI guidelines for NZ Government but only for services - not for GAI dev itself.
+### 2.2. History of the Charter
+- Development, who did Stats interview
+- Find suggestions from submissions made 
+- Year 1 review
+- Interviews from agencies with high-risk algorithms
+- Interviews with civil society: academics, peak bodies, MDS/Tiriti experts
+- Questionnaires to analytics Tier 2s, non-signatory agencies.
+- Agencies were excluded on the basis of minimal use of algorithms.
+- Out of scope: amendments, private sector, **outcomes**.
+
+### 2.3. Related Policies and Frameworks
+#### Algorithm Impact Assessment
+Independently drafted for assessing algorithm risk at the pre-deployment phase, including whether it is high risk enough to fall under the Charter.
+#### MSD Frameworks
+PHRAE - impact side evaluation
+MDL - framework for model development and maintenance
+#### Ngā Tikanga Paihere
+Stats framework for applying tikanga Māori to data use
+#### Te Mana Raraunga
+MDS network
+#### Māori Algorithmic Sovereignty
+
+### 2.4. Related International Efforts
+Canadian directives on responsible AI
+Apply EU AI Act ideas in a non-commercial context
+Biden administration EO, guidance to federal agencies on AI use
 ## 3. Timeline
 
-| Phase      | 2   | 3   | 4   | 5    | 6   | 7   | 8   | 9    | 10  | 11  | 12  |
-| ---------- | --- | --- | --- | ---- | --- | --- | --- | ---- | --- | --- | --- |
-| Lit review | X   | X   |     |      |     |     |     |      |     |     |     |
-| Int dev    |     | X   | X   |      |     |     |     |      |     |     |     |
-| Pri res    |     |     |     | Init | X   | X   |     | User | X   |     |     |
-| Ideation   |     |     |     |      | X   | X   | X   |      | X   | X   |     |
-| Recon      |     |     |     |      |     |     |     |      |     | X   | X   |
+| Phase    | 2   | 3   | 4    | 5   | 6   | 7   | 8   | 9    | 10  | 11  | 12  |
+| -------- | --- | --- | ---- | --- | --- | --- | --- | ---- | --- | --- | --- |
+| Analysis | Lit | X   | X    | Ana | X   |     |     |      |     |     |     |
+| IV dev   |     | X   |      |     |     |     | X   |      |     |     |     |
+| Pri res  |     |     | Init | X   |     |     |     | User | X   |     |     |
+| Ideation |     |     |      | X   | X   |     |     |      | X   | X   |     |
+| Solution |     |     |      |     | X   | X   | X   |      |     | X   | X   |
 
-Gantt chart here 11 months
-### 3.1. Literature Review (2 months)
-### 3.2. Interview Development (2 months)
-### 3.3. Primary Research (3 months)
-### 3.4. Ideation and Synthesis (overlapping 3 months)
-### 3.5. User Testing (2 months)
-### 3.6. Recommendation Development (1 months)
-## 4. Resources
-### 4.1. Interview Sample
-### 4.2. Trial Data for New Evaluation Tools
-### 4.3. Official Information on Agency Governance Policies
-### 4.4. Ethical Considerations
+Will become a Gantt chart - 
+### Critical analysis (5 months)
+Critical analysis of the state of play across the breadth of the Charter?
+Frame as not just a review but a contribution in its own right
+#### Interview Development (1 month)
+#### Primary Research (2 months)
+#### Ideation and Synthesis (overlapping 2 months)
+### Solution Development (overlapping 3 months)
+Similar waterfall structure
+## 5. Resources
+### Interview Sample
+### Trial Data for New Evaluation Tools
+### Ethical Considerations
