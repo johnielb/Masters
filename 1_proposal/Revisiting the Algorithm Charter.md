@@ -33,28 +33,27 @@ Define what’s in scope of AC
 Examples of algorithms, what’s not an algorithm
 Generative AI - pending question
 Interim Generative AI guidelines for NZ Government but only for services - not for GAI dev itself.
-### 2.2. History of the Charter
-- Development, who did Stats interview
+### 2.2. Algorithm Charter of Aotearoa New Zealand
+- History and development, who did Stats interview
 - Find suggestions from submissions made 
 - Year 1 review
-- Interviews from agencies with high-risk algorithms
-- Interviews with civil society: academics, peak bodies, MDS/Tiriti experts
-- Questionnaires to analytics Tier 2s, non-signatory agencies.
-- Agencies were excluded on the basis of minimal use of algorithms.
-- Out of scope: amendments, private sector, **outcomes**.
+	- Interviews from agencies with high-risk algorithms
+	- Interviews with civil society: academics, peak bodies, MDS/Tiriti experts
+	- Questionnaires to analytics Tier 2s, non-signatory agencies.
+	- Agencies were excluded on the basis of minimal use of algorithms.
+	- Out of scope: amendments, private sector, **outcomes**.
 
 ### 2.3. Related Policies and Frameworks
 #### Algorithm Impact Assessment
 Independently drafted for assessing algorithm risk at the pre-deployment phase, including whether it is high risk enough to fall under the Charter.
-#### MSD Frameworks
-PHRAE - impact side evaluation
-MDL - framework for model development and maintenance
+#### Internal Agency Frameworks
+PHRAE - MSD impact-side evaluation prior to deployment
+MDL - MSD framework for model development and maintenance
+DPUP - SWA
 #### Ngā Tikanga Paihere
 Stats framework for applying tikanga Māori to data use
-#### Te Mana Raraunga
-MDS network
 #### Māori Algorithmic Sovereignty
-
+As per Brown et al re *MAS: idea, principles use*, how they were transformed from MDS principles already circulated to agencies.
 ### 2.4. Related International Efforts
 Canadian directives on responsible AI
 Apply EU AI Act ideas in a non-commercial context
@@ -70,15 +69,20 @@ Biden administration EO, guidance to federal agencies on AI use
 | Solution |     |     |      |     | X   | X   | X   |      |     | X   | X   |
 
 Will become a Gantt chart - 
-### Critical analysis (5 months)
+### Critical analysis (10 months)
 Critical analysis of the state of play across the breadth of the Charter?
 Frame as not just a review but a contribution in its own right
-#### Interview Development (1 month)
-#### Primary Research (2 months)
-#### Ideation and Synthesis (overlapping 2 months)
-### Solution Development (overlapping 3 months)
-Similar waterfall structure
-## 5. Resources
+#### Interview development (2 months)
+Write up questions and script, devise sample
+#### Primary research (4 months)
+Undertake interviews
+#### Ideation and Synthesis (overlapping 4 months)
+Integrate learnings from research
+### Solution development (overlapping 14 months)
+Similar waterfall structure: develop tool, devise and perform user tests, integrate feedback, finalise solution
+## Resources
 ### Interview Sample
-### Trial Data for New Evaluation Tools
-### Ethical Considerations
+Who is in and out of scope for interviewing, how I’ll build a representative sample
+Ethical considerations
+### Trial Data for Solution Development
+What data I’ll be using to test solutions
