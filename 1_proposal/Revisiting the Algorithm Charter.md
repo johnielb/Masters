@@ -1,4 +1,4 @@
-# Revisiting the Algorithm Charter
+# Revisiting algorithm governance in the New Zealand public sector
 
 Johniel Bocacao
 
@@ -6,22 +6,31 @@ April 2024
 
 ## 1. Introduction
 
-Government agencies employ algorithms to enhance their delivery of services to New Zealand citizens. 
+As the use of algorithms to improve and optimise the operations of businesses increases and becomes increasingly effective, so too do government agencies. Use cases within the New Zealand Government range from simple business rules that triage applications, such as passport and visa applications. Other agencies employ more complex mathematical algorithms that influence how individual cases are handled, such as managing criminals more at risk of offending or targeting health support to improve patient outcomes. Algorithms may also inform policy and funding decisions with even more complex models that integrate data of individuals from different government agencies, such as evaluating the wider social outcomes of certain policy programmes. *(StatsNZ, 2018)* These algorithms help agencies make evidence-based decisions from the insights unlocked by modern data analytics, potentially reducing the inevitable subjectivity and risk of manual decisions made by humans that can be more prone to error and more difficult to systematically interrogate to understand what (such as biases) affects a decision they reach.
 
-- Importance of getting it right for government who has a monopoly on a variety of services: social welfare, legal violence (police), entry to the country.
-- Examples of uses, something using minor business rules, something complex uplifting, something complex punishing. 
-- Use of personal data to train. 
-- Can lose social license if they are misusing data, jumping the gun and creating models without understanding, perpetuate bias against communities. 
-- Solve this issue by putting up safeguards to ensure they use data appropriately and know what's going on. 
-- Effectively communicate this knowledge to the public. 
+Algorithms are never perfect; there is an inevitable risk of algorithms making incorrect decisions to the detriment of individuals that, for example, miss health interventions after they were needed or are victims of criminals already known to the justice system and were incorrectly managed. The importance of making accurate decisions is compounded for government agencies who have a monopoly on these services, from entry to the country to the legal use of force. Furthermore, a liberal democracy like New Zealand have processes that hold agencies accountable for decisions they make, from hard levers like legislation that facilitate the right to information held by an agency and enforce expectations on how individual information can be used to protect their privacy. There are more indirect soft levers like the risk of losing social license for agencies that consistently make suboptimal or incorrect decisions, to the point where certain communities could accuse an agency of bias against them, or make decisions that disproportionately restrict the rights of individuals. The general public may also hold concerns about the cold automatic nature of machine-based decisions, devoid of the intuition and empathy that comes from a human decision-maker. This risk of losing social license materialises, for example, in media reports of civil society questioning the use of algorithms *(Gabel, 2017)*.
 
-Set the scene, why I am doing this. Triangulate based on unique insight I have at ACC.
+To maintain public confidence in how agencies operate and use individual data, the Government Chief Data Steward (role held by StatsNZ) and the Government Chief Digital Officer (role held by the Department of Internal Affairs) initiated work in 2018 to streamline the New Zealand Government's approach to "ensur[ing] algorithms are used appropriately, are used ethically, and free from bias" *(Milicich &amp; Occleshaw, 2018)*. A survey of government agencies determined how and why they used algorithms at the time to inform a set of principles the assure internal and external stakeholders that algorithms are fit for purpose and meet legal and ethical standards. These principles were embedded in the Algorithm Charter for Aotearoa New Zealand, a non-binding commitment by signatory agencies to comply with said principles, inculcated in each agency through enterprise policies and procedures. For clarity, the principles are as follows:
 
-- Government agencies collect data on citizens that interact with it, use that data for algorithms to improve service delivery, target, predict etc. 
-- Government agencies need to have safeguards in place to ensure they use data for algorithms appropriately, ethically, with social license.
-- Algorithm Charter developed to commit agencies to basic principles around transparency, accountability, and considerations during the algorithm lifecycle.
-- Agencies embed principles in their enterprise policies to truly take effect
-- Year 1 review commissioned by StatsNZ in 2021 focused on operationalisation rather than a thorough, first principles review
+- **Transparency** - Maintain transparency by clearly explaining how decisions are informed by algorithms. This may include:
+    - Plain English documentation of the algorithm
+    - Making information about the data and processes available (unless a lawful restriction prevents this)
+    - Publishing information about how data are collected, secured and stored.
+- **Partnership** - Deliver clear public benefit through Treaty commitments by:
+    - Embedding a Te Ao Māori perspective in the development and use of algorithms consistent with theprinciples of the Treaty of Waitangi.
+- **People** - Focus on people by:
+    - Identifying and actively engaging with people, communities and groups who have an interest in algorithms, and consulting with those impacted by their use.
+- **Data** - Make sure data is fit for purpose by:
+    - Understanding its limitations,
+    - Identifying and managing bias.
+- **Privacy, human rights and ethics** - Ensure that privacy, ethics and human rights are safeguarded by:
+    - Regularly peer reviewing algorithms to assess for unintended consequences and act on this information.
+- **Human oversight** - Retain human oversight by:
+    - Nominating a point of contact for public inquiries about algorithms,
+    - Providing a channel for challenging or appealing of decisions informed by algorithms,
+    - Clearly explaining the role of humans in decisions informed by algorithms.
+
+Year 1 review commissioned by StatsNZ in 2021 focused on operationalisation rather than a thorough, first principles review
 
 ### 1.1. Motivation
 
@@ -171,8 +180,15 @@ Who is in and out of scope for interviewing, how I’ll build a representative s
 
 What data I’ll be using to test solutions
 
+## 5. Complimentary Material
+
+### 5.1. Past Experience
+
 # Bibliography
 
+StatsNZ, D. O. I. A.. (2018). Algorithm assessment report 2018 - data.govt.nz. https://data.govt.nz/toolkit/data-ethics/government-algorithm-transparency-and-accountability/algorithm-assessment-report/. 2024-04-08
+Gabel, J.. (2017). ACC’s computer-aided decision-making questioned by Otago experts. https://itbrief.co.nz/story/accs-computer-aided-decision-making-questioned-otago-experts. 2024-04-08
+Milicich, R. & Occleshaw, T.. (2018). Report: Review of Government Algorithms. https://data.govt.nz/assets/Blog-files/Review-of-Government-Algorithms-Report-14-May-2018-for-release.pdf. 2024-04-08
 Brown, P. T., Wilson, D., West, K., Escott, K. R., Basabas, K., Ritchie, B., Lucas, D., Taia, I., Kusabs, N. & Keegan, T. T.. (2023). Māori algorithmic sovereignty: idea, principles, and use. arXiv:2311.15473
 
 
